@@ -1,0 +1,17 @@
+node_modules/
+
+# Generated prime data. The big files are hundreds of MB and don't belong in git;
+# regenerate them with generate-primes.ts. The committed sample is the exception.
+*.txt
+!data/primes-sample.txt
+
+# Split output and profiling artifacts
+out/
+**/out/
+*.log
+isolate-*.log
+*.heapprofile
+cpu-profile-*
+heap-profile-*
+
+.DS_Store

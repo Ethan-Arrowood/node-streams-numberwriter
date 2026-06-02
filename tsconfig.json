@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		// Match how Node 24 runs these files: ESM, with `.ts` extensions in
+		// relative imports and types erased rather than compiled.
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"target": "esnext",
+		"lib": ["esnext"],
+		"types": ["node"],
+
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true,
+		"noEmit": true,
+
+		"strict": true,
+		"skipLibCheck": true
+	},
+	"include": ["01-building-custom-streams", "02-profiling-and-writev"]
+}
