@@ -1,4 +1,4 @@
-# Node.js Streams Deep Dive
+# Node.js Streams NumberWriter
 
 Companion code for a two-part series on building and optimizing custom Node.js
 streams. The running example: turning a ~1GB text file of prime numbers into
